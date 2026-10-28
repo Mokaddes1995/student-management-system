@@ -28,3 +28,6 @@ jobs:
 
       - name: Run pytest
         run: python -m pytest -v
+
+      - name: Run pytest with coverage
+        run: python -m pytest --cov=app --cov-report=term-missing -v

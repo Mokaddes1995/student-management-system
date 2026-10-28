@@ -32,6 +32,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest",
+    "pytest-cov",
     "httpx",
     "ruff",
 ]
@@ -40,4 +41,3 @@ dev = [
 [tool.setuptools.packages.find]
 include = ["app", "app.*"]
 exclude = ["tests", "tests.*", "alembic", "alembic.*"]
-
